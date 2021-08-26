@@ -1,19 +1,6 @@
-/*
-Theme Name: 30Parallel
-Version: 1.0.0
-Text Domain: 30Parallel
-Description: Custom theme for 30parallelgames.com
-Author: Bela Kochkarova
-Author URI: http://belaburrito.github.io
-*/
-
-/*******************************/
-/********* General CSS *********/
-/*******************************/
-
 @font-face {
     font-family: Futura;
-    src: url('./assets/FuturaMedium.otf');
+    src: url('../assets/FuturaMedium.otf');
 }
 
 body{
@@ -122,7 +109,7 @@ a.nav-link, a.nav-link:hover{
 /**********************************/
 .hero{
     height: 100vh;
-    background: url('https://30parallelgames.com/wp-content/uploads/2021/08/FPO1.png');
+    background: url('../img/FPO1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
